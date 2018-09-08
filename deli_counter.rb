@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else
     for i in array
-    name = array[i]
+    name = i
     position = i + 1
     name_and_position = "#{position.to_s}. #{name}"
     name_of_people_in_line = []
