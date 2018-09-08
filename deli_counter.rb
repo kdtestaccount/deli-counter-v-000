@@ -26,6 +26,7 @@ def take_a_number(array, name)
     "Welcome, #{name}. You are number #{spot_in_line} in line."
   end
 end
+end
   
 
 def now_serving(array)
