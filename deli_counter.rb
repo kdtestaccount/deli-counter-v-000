@@ -1,6 +1,5 @@
 # Write your code here.
-katz = []
-
+katz = ["tina", "bob"]
 
 def line(array)
   if array.count < 1 
