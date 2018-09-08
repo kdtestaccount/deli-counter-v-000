@@ -1,4 +1,5 @@
 # Write your code here.
+katz = []
 line(katz)
 
 def line(array)
