@@ -1,4 +1,5 @@
 # Write your code here.
+line(katz)
 
 def line(array)
   if array.count < 1 
