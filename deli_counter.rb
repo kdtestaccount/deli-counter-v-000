@@ -9,7 +9,7 @@ def line(array)
     name = i
     position = array.index(name)
     final_position = position + 1
-    name_and_position = "#{final_positionposition}. #{name}"
+    name_and_position = "#{final_position}. #{name}"
     name_of_people_in_line = []
     name_of_people_in_line.push(name_and_position)
     end
