@@ -10,7 +10,7 @@ def line(array)
     puts "name = #{name}"
     position = array.index(name)
     final_position = position + 1
-    puts "position = #{position}"
+    puts "position = #{final_position}"
 
     name_and_position = "#{position}. #{name}"
     name_of_people_in_line = []
