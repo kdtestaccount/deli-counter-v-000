@@ -7,12 +7,9 @@ def line(array)
   else
     for i in array
     name = i
-    puts "name = #{name}"
     position = array.index(name)
     final_position = position + 1
-    puts "position = #{final_position}"
-
-    name_and_position = "#{position}. #{name}"
+    name_and_position = "#{final_positionposition}. #{name}"
     name_of_people_in_line = []
     name_of_people_in_line.push(name_and_position)
     end
