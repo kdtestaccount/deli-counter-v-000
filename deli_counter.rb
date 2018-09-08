@@ -8,7 +8,7 @@ def line(array)
     for i in array
     name = i
     puts "name = #{name}"
-    position = array[i].to_i
+    position = array[name].to_i
     final_position = position + 1
     puts "position = #{position}"
 
