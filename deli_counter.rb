@@ -17,7 +17,7 @@ def line(array)
   end 
 end
 
-line(katz)
+# line(katz)
 
 def take_a_number(array, name)
   spot_in_line = array.count + 1
