@@ -6,6 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else
     for i in array
+    puts i 
     name = i
     position = i + 1
     name_and_position = "#{position.to_s}. #{name}"
