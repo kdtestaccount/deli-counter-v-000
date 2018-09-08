@@ -29,7 +29,7 @@ def now_serving(array)
   if array.count == 0 
     puts "There is nobody waiting to be served!"
   else 
-    next_person_array[0]
+    next_person = array[0]
     puts next_person
     array.shift
   end
