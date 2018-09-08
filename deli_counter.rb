@@ -21,7 +21,7 @@ end
 
 def take_a_number(array, name)
     array.push(name)
-    spot_in_line = array.count + 1
+    spot_in_line = array.count
     for i in array
       if i == name 
       puts "Welcome, #{name}. You are number #{spot_in_line} in line."
