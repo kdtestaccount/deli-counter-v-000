@@ -1,6 +1,6 @@
 # Write your code here.
 katz = []
-line(katz)
+
 
 def line(array)
   if array.count < 1 
@@ -16,6 +16,8 @@ def line(array)
     puts "The line is currently: #{name_of_people_in_line}"
   end 
 end
+
+line(katz)
 
 def take_a_number(array, name)
   spot_in_line = array.count + 1
