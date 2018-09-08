@@ -26,7 +26,6 @@ def take_a_number(array, name)
       if i == name 
       "Welcome, #{name}. You are number #{spot_in_line} in line."
     end
-  end
 end
   
 
