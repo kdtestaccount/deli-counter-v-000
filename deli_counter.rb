@@ -9,7 +9,7 @@ def line(array)
     name = i
     puts "name = #{name}"
     position = array[i] + 1
-        puts "position = #{position}"
+    puts "position = #{position}"
 
     name_and_position = "#{position}. #{name}"
     name_of_people_in_line = []
