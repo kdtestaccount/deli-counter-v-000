@@ -20,6 +20,8 @@ end
 # line(katz)
 
 def take_a_number(array, name)
+  if array.count == 0 
+    array.push(name)
   spot_in_line = array.count + 1
   for i in array
     if i == name 
