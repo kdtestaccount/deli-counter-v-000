@@ -13,7 +13,7 @@ def line(array)
     name_and_position = " #{final_position}. #{name}"
     name_of_people_in_line.push(name_and_position.to_s)
     end
-    puts "The line is currently: #{name_of_people_in_line.join()}"
+    puts "The line is currently:#{name_of_people_in_line.join()}"
   end 
 end
 
