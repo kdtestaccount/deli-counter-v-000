@@ -1,5 +1,5 @@
 # Write your code here.
-katz = ["tina", "bob"]
+# katz = ["tina", "bob"]
 
 def line(array)
   if array.count < 1 
@@ -17,7 +17,7 @@ def line(array)
   end 
 end
 
-line(katz)
+# line(katz)
 
 def take_a_number(array, name)
   spot_in_line = array.count + 1
